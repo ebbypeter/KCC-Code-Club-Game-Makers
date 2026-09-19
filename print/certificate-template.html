@@ -1,0 +1,79 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Certificates</title>
+<style>
+@page { size: A4 landscape; margin: 0; }
+* { box-sizing: border-box; }
+body { margin: 0; font-family: "DejaVu Sans", Arial, sans-serif;
+  -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+.cert {
+  width: 297mm; height: 210mm; page-break-after: always;
+  padding: 14mm; position: relative; background: #fff;
+}
+.frame {
+  height: 100%; border: 2.5mm solid #0f3d5c; border-radius: 3mm;
+  padding: 12mm 16mm; display: flex; flex-direction: column;
+  align-items: center; text-align: center; position: relative;
+}
+.frame::after {
+  content: ""; position: absolute; inset: 3mm;
+  border: 0.5mm solid #2b7fb8; border-radius: 1.5mm; pointer-events: none;
+}
+.club { font-size: 12pt; letter-spacing: 0.35em; text-transform: uppercase;
+  color: #2b7fb8; font-weight: 600; margin-top: 2mm; }
+.title { font-size: 40pt; font-weight: 700; color: #0f3d5c;
+  margin: 6mm 0 1mm; letter-spacing: -0.01em; }
+.subtitle { font-size: 15pt; color: #4a6b82; margin-bottom: 9mm; }
+.awarded { font-size: 12pt; color: #4a6b82; letter-spacing: 0.12em;
+  text-transform: uppercase; }
+.name {
+  font-size: 34pt; color: #14496b; font-weight: 600;
+  border-bottom: 0.7mm solid #9dc2d8; min-width: 170mm;
+  padding: 3mm 6mm 2mm; margin: 4mm 0 8mm;
+}
+.body { font-size: 13pt; color: #23384a; line-height: 1.6; max-width: 195mm; }
+.body strong { color: #0f3d5c; }
+.super { font-size: 13pt; color: #0f3d5c; margin-top: 7mm; }
+.super .label { color: #4a6b82; font-size: 11pt; letter-spacing: 0.1em;
+  text-transform: uppercase; display: block; margin-bottom: 2mm; }
+.super .line { border-bottom: 0.5mm solid #cfdde7; min-width: 120mm;
+  display: inline-block; padding-bottom: 1.5mm; }
+.feet { margin-top: auto; display: flex; justify-content: space-between;
+  width: 100%; gap: 20mm; padding: 0 4mm; }
+.sig { flex: 1; }
+.sig .line { border-top: 0.5mm solid #0f3d5c; padding-top: 2mm;
+  font-size: 10pt; color: #4a6b82; letter-spacing: 0.08em; text-transform: uppercase; }
+.blocks { margin: 5mm 0 0; }
+.blocks span { display: inline-block; width: 9mm; height: 9mm;
+  border-radius: 2mm; margin: 0 1.5mm; }
+</style></head><body>
+
+<!-- Repeat this block once per student. Fill in the name and the specific award. -->
+<div class="cert"><div class="frame">
+  <div class="club">Kerala Cultural Club</div>
+  <div class="title">Game Makers</div>
+  <div class="subtitle">KCC Code Club &middot; Scratch &middot; Ages 7&ndash;12</div>
+
+  <div class="awarded">This certifies that</div>
+  <div class="name">&nbsp;</div>
+
+  <div class="body">
+    completed all eight weeks of Game Makers, learned to program with
+    <strong>sequences, loops, conditionals, variables and broadcasts</strong>,
+    and designed, built and debugged a working game entirely from scratch.
+  </div>
+
+  <div class="blocks">
+    <span style="background:#4c97ff"></span><span style="background:#ffab19"></span><span style="background:#9966ff"></span><span style="background:#40bf4a"></span><span style="background:#ff8c1a"></span><span style="background:#ff6680"></span>
+  </div>
+
+  <div class="super">
+    <span class="label">Special mention for</span>
+    <span class="line">&nbsp;</span>
+  </div>
+
+  <div class="feet">
+    <div class="sig"><div class="line">Instructor</div></div>
+    <div class="sig"><div class="line">Date</div></div>
+  </div>
+</div></div>
+
+</body></html>
