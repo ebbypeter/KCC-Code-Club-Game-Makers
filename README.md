@@ -11,6 +11,8 @@ built around one game the students grow week by week and demo to their families 
 | `handouts/` | One printable student sheet per class — activity steps on the front, homework and bonus challenges on the back |
 | `admin/` | Everything that isn't teaching: parent letter, consent form, volunteer briefing, safety notes, checklists, attendance tracker, showcase run sheet |
 | `resources/` | External free resources, catch-up material, and where to point students who want more |
+| `print/` | Every printable PDF, **generated** from the markdown by `print/build/` — edit the markdown, not the PDF |
+| `slides/` | Links to the nine decks — one projector deck per class, plus the volunteer briefing — with the teaching detail in the speaker notes |
 
 ## Start here
 
@@ -19,6 +21,8 @@ built around one game the students grow week by week and demo to their families 
 3. Work through `admin/pre-launch-checklist.md` **six weeks** before week one — the Scratch
    teacher account and the skeleton files are the two things you can't do at the last minute.
 4. The night before each class, read that week's lesson plan and print that week's handout.
+5. Open that class's deck from `slides/README.md` and present it from the notes view, so the
+   timings and the common bugs are in front of you while the room sees only the slide.
 
 ## The one-paragraph version
 
@@ -27,6 +31,7 @@ teaches one new idea, practises it on a small throwaway activity, then applies i
 students' own game. The game works at the end of every single class — it just gets better.
 In week eight the parents come and every child demos something they built. Nothing is graded,
 nothing is marked, and the only measure of success is how many kids are still coding in week nine.
+Families pay $40 for the term — $5 a session — collected up front.
 
 ## Non-negotiables
 

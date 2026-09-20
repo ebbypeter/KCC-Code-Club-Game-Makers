@@ -34,17 +34,33 @@ how you catch the quietly stuck child. Design for that.
 
 ## Devices
 
-### The BYOD problem
+### Bring your own laptop — and what that costs us
 
-A "bring your own laptop" requirement will quietly exclude the families who'd benefit most, and
-they will not tell you that's why they didn't sign up. They'll just not sign up.
+Every child brings their own laptop for the pilot. There is no budget for club machines and no
+time to source them before week one. That is a real decision with a real cost, so be honest
+about it rather than hoping nobody notices.
 
-Plan for a mix: ask on the registration form, then source spares to cover the gap. Four or five
-club laptops covers most groups. Sources worth trying: club members' old machines, a member's
-workplace refreshing its fleet, a local school, a library, or a community tech recycler.
+**A bring-your-own requirement quietly excludes the families who would benefit most, and they
+will not tell you that's why they didn't sign up. They will just not sign up.** Nothing in this
+pack fixes that. What you can do:
 
-Say clearly on the parent letter that borrowing a laptop needs no explanation. Make it the
-easiest box to tick.
+- **Say it plainly on the parent letter**, in what to bring, so nobody registers and then
+  discovers the problem in week one.
+- **Invite them to tell you anyway.** Promise nothing, but ask. A club member with a spare
+  machine in a cupboard is a phone call, not a budget line.
+- **Count who it turns away.** Every family that asks and can't come is a number, and that
+  number is the whole case for sponsored laptops after the pilot.
+- **Take Chromebooks, and tablets if that's all there is.** See below. A fiddly device beats
+  no device.
+
+Four or five laptops would cover most groups. Worth trying once the pilot has something to
+show: club members' old machines, a member's workplace refreshing its fleet, a local school, a
+library, or a community tech recycler. That is a term-two job.
+
+**When a child turns up without one**, pair them with a neighbour for that session. Two
+children on one laptop works fine for a week and is enormously better than sending someone
+home. If it happens twice with the same child, phone the parent — it is usually a
+logistics problem you can solve, not a child who has gone off it.
 
 ### Minimum spec
 
@@ -68,24 +84,30 @@ Scratch is not demanding, but it is a browser app and it wants a bit of memory.
 
 ### Before every session
 
-- [ ] All club laptops charged
-- [ ] All logged into Scratch already
+- [ ] Message families the night before: **charge the laptop, bring the charger**
+- [ ] Arrive early enough to get everyone logged into Scratch before the session starts
 - [ ] One browser tab open on the Scratch editor. Not fifteen tabs, not a games site
 - [ ] Spare mice out on the tables
-- [ ] Scratch Desktop installed as the offline fallback (see `scratch-accounts-setup.md`)
+- [ ] Your own presenting laptop charged, with Scratch Desktop on it
 
 ## When the internet dies
 
 It will. Have this ready and it's a shrug instead of a cancelled session.
 
-1. **Scratch Desktop is already installed** on every club machine. Projects save locally.
+**This plan is weaker than it used to be, because the laptops are not ours.** We can't
+pre-install anything. Carry the Scratch Desktop installers for Windows and macOS on the USB
+stick and offer to install them in week one — five minutes per machine, once, and it buys you
+the fallback below for the rest of the term.
+
+1. **Scratch Desktop** on as many machines as accepted it in week one. Projects save locally.
 2. **The USB stick** has last week's `.sb3` files for every student, backed up at the end of
    every session.
 3. Students open their `.sb3` in Scratch Desktop, work normally, and save back to the stick.
 4. Upload to their online accounts next week when the wi-fi is behaving.
 
-The whole recovery takes about five minutes if the backups exist, and the session is
-unsalvageable if they don't. Do the backups.
+Anyone without the desktop editor pairs up with someone who has it. Not ideal, better than
+going home. The recovery takes about five minutes if the backups exist and the session is
+unsalvageable if they don't — do the backups.
 
 ## Consumables
 

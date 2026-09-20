@@ -63,8 +63,10 @@ Fallbacks, in order of preference:
 
 ## Have Scratch Desktop installed regardless
 
-Download [Scratch Desktop](https://scratch.mit.edu/download) onto every club machine before
-week one, even if you're using the web version.
+The laptops are the families' own, so you can't pre-install anything. Put the
+[Scratch Desktop](https://scratch.mit.edu/download) installers for Windows and macOS on a USB
+stick and offer to install it on each machine in week one. It takes five minutes per laptop,
+once, and plenty of parents will say yes. Definitely have it on your own presenting laptop.
 
 Community venue wi-fi fails. It will fail on the week you're teaching broadcasts, and it will
 fail on showcase night. Having the offline editor already installed turns a cancelled session

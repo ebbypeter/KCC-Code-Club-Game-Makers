@@ -74,9 +74,11 @@ _________________________________________________________________
 
 ### 5. Devices
 
-☐ My child will bring their own laptop
+Children bring their own laptop. The club does not have laptops to lend this term.
 
-☐ **We'd like to borrow a club laptop** (no cost, no explanation needed)
+☐ **I confirm my child will bring a laptop each week**
+
+☐ A laptop is a problem for us — please get in touch
 
 ---
 
@@ -132,7 +134,7 @@ Received by: ______________
 
 Date: ______________
 
-Fee paid: ☐
+Term fee ($40) paid: ☐      Waived: ☐
 
 Scratch username issued: _________________________________________
 

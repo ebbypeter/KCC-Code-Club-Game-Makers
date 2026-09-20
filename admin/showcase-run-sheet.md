@@ -134,7 +134,7 @@ Have this tested before the parents arrive, not discovered during the third demo
 
 - [ ] Message every parent within two days with the studio link so they can show grandparents
 - [ ] Ask two questions: **what did your child enjoy most**, and **would they come back?**
-- [ ] Return deposits if you took them
+- [ ] Close the term's money off with the treasurer — who paid, who was waived
 - [ ] Sit down with the other volunteer and write down what went wrong while it's fresh. Twenty
       minutes now saves hours next term
 - [ ] Note which students are ready for the Python track, and tell their parents

@@ -5,7 +5,7 @@
 **Length:** 8 classes × 90 minutes, weekly
 **Class size:** 16 for the pilot term, 20 program ceiling thereafter
 **Volunteers:** one per five students, never fewer than two
-**Cost:** nominal term fee, collected up front
+**Cost:** $40 for the eight-week term — $5 a session — collected up front
 
 ## What the students will be able to do by week 8
 
@@ -53,7 +53,9 @@ big room:
   class, it's two classes sharing a lead, badly.
 - **Devices.** Twenty working laptops, twenty spare mice, and venue wi-fi that survives twenty
   simultaneous connections. Wi-fi that copes with fifteen and dies at twenty-five is extremely
-  common — test at the number you're actually planning for.
+  common — test at the number you're actually planning for. Families bring their own laptops,
+  so the club controls none of this; at twenty, one forgotten charger is a child with nothing
+  to do for ninety minutes.
 
 Hold 20 back until the club has run a full term, because at 20 you need four volunteers in the
 room every week and that leaves almost no slack. Prove the reliability of your team first.
@@ -176,9 +178,13 @@ What is your fault is losing them because they fell behind. The skeleton files e
 exactly this. If a student misses a week, message the parent with the skeleton link and one
 sentence on what they missed, and they will be fine.
 
-Free programs get flaky attendance. A nominal fee collected up front measurably improves it —
-people show up for what they have paid for. A refundable deposit returned at the showcase
-works even better if the club is uncomfortable charging.
+Free programs get flaky attendance. A fee collected up front measurably improves it — people
+show up for what they have paid for. We charge **$40 for the term, which is $5 a session**:
+enough that a family has decided to come, low enough that it turns nobody away. Collect it
+before week one.
+
+Agree with the committee, before you publish the fee, that no child is turned away over it and
+who is allowed to waive it quietly. A waiver that needs a meeting is a waiver nobody asks for.
 
 ## Success measures
 

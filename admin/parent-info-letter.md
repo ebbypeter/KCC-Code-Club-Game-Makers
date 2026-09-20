@@ -10,7 +10,7 @@
 
 Dear parents and caregivers,
 
-The Kerala Cultural Club is starting a free coding club for children aged 7 to 12 — Game Makers,
+The Kerala Cultural Club is starting a coding club for children aged 7 to 12 — Game Makers,
 the first class under our new KCC Code Club — and we'd love your child to join us.
 
 Over eight weekly sessions, the children will learn the real foundations of programming — how
@@ -30,7 +30,7 @@ exactly who this is for.
 | **When** | [DAY] afternoons, [TIME]–[TIME], starting [DATE] |
 | **Where** | [VENUE AND ADDRESS] |
 | **How long** | 8 weekly sessions of 90 minutes |
-| **Cost** | [$X for the term / a refundable $X deposit, returned at the showcase] |
+| **Cost** | **$40 for the whole term** — eight sessions, so $5 a session. Payable before the first class |
 | **Class size** | [N] places, first come first served |
 | **Last session** | [DATE] — the showcase. **Please come.** |
 
@@ -47,10 +47,14 @@ Their work will be saved online so they can carry on at home.
 
 ### What your child needs to bring
 
-- A laptop, if you have one they can bring. **If you don't, that's absolutely fine** — we have
-  club laptops available, just tick the box on the registration form so we can plan.
+- **A laptop.** We don't have club laptops for this first term, so this one is unavoidable —
+  sorry. Any laptop from the last six or seven years is fine, and a Chromebook works too.
 - Headphones, if they have some. Not essential.
-- That's it. No books, no software to install, no cost.
+- That's it. No books, nothing to install, nothing more to pay.
+
+If not having a laptop is what's stopping you signing up, **please tell us anyway**. We can't
+promise anything, but we would much rather know and try to help than have you quietly not
+come.
 
 ### What we'd love from you
 
@@ -72,6 +76,9 @@ carry on, not that they tick every box.
 
 If your child misses a week, don't worry. We keep a saved copy of the project at every stage,
 so we can get them straight back up to speed.
+
+The same goes for the fee. If it is difficult for your family, say so and we will sort it out
+quietly — we would far rather have your child in the room.
 
 ### Registering
 

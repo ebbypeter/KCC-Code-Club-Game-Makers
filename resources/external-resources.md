@@ -8,8 +8,8 @@ volunteer to run a session cold.
 ## The core platform
 
 - **[Scratch](https://scratch.mit.edu)** — the editor, in a browser
-- **[Scratch Desktop](https://scratch.mit.edu/download)** — the offline editor. Install it on
-  every club machine before week one, whether or not you plan to use it
+- **[Scratch Desktop](https://scratch.mit.edu/download)** — the offline editor. Carry the
+  installers on a USB stick and offer to install it in week one; the laptops are the families' own
 - **[Scratch for Educators](https://scratch.mit.edu/educators)** — teacher accounts, class
   management, and their own teaching guides
 - **[Scratch Teacher Accounts Guide (PDF)](https://resources.scratch.mit.edu/www/guides/en/scratch-teacher-accounts-guide.pdf)**

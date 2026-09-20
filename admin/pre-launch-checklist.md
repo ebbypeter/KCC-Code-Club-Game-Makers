@@ -16,7 +16,8 @@ Everything else can be rushed if it has to be. Start those two now.
 - [ ] **Take the club's child safety policy to the KCC committee** before you commit to dates.
       Agree what's required of volunteers, what the club's insurance covers, and who the named
       contact is for any welfare concern. See the note at the bottom of this file
-- [ ] Agree the fee or refundable deposit, and how it's collected
+- [ ] **Confirm the term fee** — $40 for the eight weeks ($5 a session), collected up front —
+      and agree how it's collected and, crucially, who can waive it without a meeting
 - [ ] Confirm your volunteers for all eight weeks and name the spares
 
 ## Four weeks out
@@ -25,12 +26,14 @@ Everything else can be rushed if it has to be. Start those two now.
       the group skews young, never fewer than two adults, 16 cap for the pilot
 - [ ] **Test the venue wi-fi with as many devices as you plan to run.** Not "the venue has
       wi-fi" — take five machines down there and load Scratch on all of them
-- [ ] Decide the device model: club laptops, BYOD, or a mix. See `venue-device-checklist.md`
+- [ ] **Bring-your-own-laptop for the pilot** — no budget for club machines. Make sure the
+      parent letter says so plainly. See `venue-device-checklist.md`
 - [ ] Open registrations. **Cap at 16** (12–15 is the sweet spot with a team of five). Keep a
       waitlist; it's your case for a second cohort
 - [ ] Send `parent-info-letter.md` with the registration link
 - [ ] Send `consent-and-photo-permission.md`. **Collect these before week one, not on the day**
-- [ ] Book or borrow spare laptops for families without one
+- [ ] **Count who the laptop requirement turns away.** Note every family that asks and can't
+      come. That number is the case for sponsored laptops after the pilot
 
 ## Three weeks out
 
