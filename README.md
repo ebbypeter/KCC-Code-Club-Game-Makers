@@ -3,26 +3,28 @@
 The Scratch track of KCC Code Club, for ages 7–12. An 8-week, volunteer-run introduction to programming. Eight classes of 90 minutes,
 built around one game the students grow week by week and demo to their families at the end.
 
-## What's in this pack
+## What's in this repo
 
 | Folder | What it holds |
 |---|---|
-| `curriculum/` | The program overview, eight teacher lesson plans, the long-project guide, and the concept map |
-| `handouts/` | One printable student sheet per class — activity steps on the front, homework and bonus challenges on the back |
-| `admin/` | Everything that isn't teaching: parent letter, consent form, volunteer briefing, safety notes, checklists, attendance tracker, showcase run sheet |
-| `resources/` | External free resources, catch-up material, and where to point students who want more |
-| `print/` | Every printable PDF, **generated** from the markdown by `print/build/` — edit the markdown, not the PDF |
-| `slides/` | Links to the nine decks — one projector deck per class, plus the volunteer briefing — with the teaching detail in the speaker notes |
+| `course/` | The teaching material: `program-overview.md`, the long-project guide, the concept map, `resources.md`, the slide links (`slides.md`), plus `lessons/` (eight teacher lesson plans), `handouts/` (one student sheet per class) and `exercises/` (starter `.sb3` files, named `C<class>A<activity>`) |
+| `admin/` | Everything that isn't teaching: parent letter, consent form, volunteer briefing, checklists, attendance tracker, showcase run sheet |
+| `build/` | The scripts that turn the markdown into PDFs and Word files, and shrink the slide decks. See `build/README.md` |
+| `outputs/` | **Generated.** Every PDF, Word copy, deck and exercise, arranged by week and audience exactly as it goes into Google Drive. See `outputs/README.md` |
+
+Sources live in `course/` and `admin/`. Edit those, run `build/build_all.py`, and copy
+`outputs/` into Drive. Never edit a file in `outputs/` by hand.
 
 ## Start here
 
-1. Read `curriculum/00-program-overview.md`. It explains the class rhythm and the reasoning behind it.
-2. Read `curriculum/long-project-sky-catcher.md`. Everything else hangs off this.
-3. Work through `admin/pre-launch-checklist.md` **six weeks** before week one — the Scratch
+1. Read `course/program-overview.md`. It explains the class rhythm and the reasoning behind it.
+2. Read `course/long-project-sky-catcher.md`. Everything else hangs off this.
+3. Work through `admin/pre-launch-checklist.md` **six weeks** before week one. The Scratch
    teacher account and the skeleton files are the two things you can't do at the last minute.
-4. The night before each class, read that week's lesson plan and print that week's handout.
-5. Open that class's deck from `slides/README.md` and present it from the notes view, so the
-   timings and the common bugs are in front of you while the room sees only the slide.
+4. The night before each class, open that week's folder in `outputs/Weeks/`: read the lesson
+   plan, print the handout.
+5. Present that week's deck from the notes view, so the timings and the common bugs are in
+   front of you while the room sees only the slide.
 
 ## The one-paragraph version
 
