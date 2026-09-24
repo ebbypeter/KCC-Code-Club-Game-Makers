@@ -1,4 +1,5 @@
 # Game Makers — Week 2
+
 ## Events and Movement
 
 **Name:** ______________________
@@ -13,24 +14,16 @@ press, a click, anything. Those triggers are called **events**.
 And position is just two numbers: **x** goes across, **y** goes up and down. The middle of the
 stage is `x: 0  y: 0`.
 
-```
-        y: 180
-          |
-x: -240 --+-- x: 240
-          |
-       y: -180
-```
-
 ---
 
 ### Words to know
 
-| Word | What it means |
-|---|---|
-| **event** | Something happening that makes code run |
-| **hat block** | The curved block at the top of a script. It says *when* to run |
-| **coordinates** | The two numbers that say where something is |
-| **change vs set** | `change` adds to what's there. `set` replaces it |
+| Word                    | What it means                                                   |
+| ----------------------- | --------------------------------------------------------------- |
+| **event**         | Something happening that makes code run                         |
+| **hat block**     | The curved block at the top of a script. It says*when* to run |
+| **coordinates**   | The two numbers that say where something is                     |
+| **change vs set** | `change` adds to what's there. `set` replaces it            |
 
 ---
 

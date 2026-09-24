@@ -1,4 +1,5 @@
 # Game Makers — Week 3
+
 ## Loops and Randomness
 
 **Name:** ______________________
@@ -25,12 +26,12 @@ And when you want the computer to surprise you, use `pick random`.
 
 ### Words to know
 
-| Word | What it means |
-|---|---|
-| **loop** | Code that repeats |
-| **repeat n** | Do this exactly n times |
-| **forever** | Do this until the game stops. Nothing can go after it |
-| **random** | A number the computer picks that you can't predict |
+| Word               | What it means                                         |
+| ------------------ | ----------------------------------------------------- |
+| **loop**     | Code that repeats                                     |
+| **repeat n** | Do this exactly n times                               |
+| **forever**  | Do this until the game stops. Nothing can go after it |
+| **random**   | A number the computer picks that you can't predict    |
 
 > ⚠️ **Golden rule:** every `forever` loop needs a `wait` inside it somewhere. Without one,
 > Scratch freezes and you lose your work.

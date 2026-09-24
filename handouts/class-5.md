@@ -1,4 +1,5 @@
 # Game Makers — Week 5
+
 ## Variables and Score
 
 **Name:** ______________________
@@ -26,12 +27,12 @@ it, and you can change it while the game is running.
 
 ### Words to know
 
-| Word | What it means |
-|---|---|
-| **variable** | A named box that holds a value |
-| **set** | Replace what's in the box |
-| **change** | Add to what's in the box (a negative number subtracts) |
-| **reset** | Set your variables back to their starting values when the game begins |
+| Word               | What it means                                                         |
+| ------------------ | --------------------------------------------------------------------- |
+| **variable** | A named box that holds a value                                        |
+| **set**      | Replace what's in the box                                             |
+| **change**   | Add to what's in the box (a negative number subtracts)                |
+| **reset**    | Set your variables back to their starting values when the game begins |
 
 > ⚠️ **Always reset.** Put `set score to 0` under the green flag, or your next game will start
 > with your last score still in the box.

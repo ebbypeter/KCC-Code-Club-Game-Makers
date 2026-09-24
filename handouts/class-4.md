@@ -1,4 +1,5 @@
 # Game Makers — Week 4
+
 ## Decisions and Sensing
 
 **Name:** ______________________
@@ -24,18 +25,24 @@ A question that can only be answered yes or no is called a **boolean**. Those bl
 
 ### Words to know
 
-| Word | What it means |
-|---|---|
-| **condition** | The yes/no question |
-| **boolean** | An answer that can only be yes or no (true or false) |
-| **if / then** | Do something only if the answer is yes |
-| **if / then / else** | Do one thing if yes, a different thing if no |
-| **sensing** | Blocks that let a sprite notice the world |
+| Word                       | What it means                                        |
+| -------------------------- | ---------------------------------------------------- |
+| **condition**        | The yes/no question                                  |
+| **boolean**          | An answer that can only be yes or no (true or false) |
+| **if / then**        | Do something only if the answer is yes               |
+| **if / then / else** | Do one thing if yes, a different thing if no         |
+| **sensing**          | Blocks that let a sprite notice the world            |
 
 > ⚠️ **Big one today:** an `if` block checks **once**, at the moment it runs. If you want it to
 > keep checking, it has to be **inside a loop**.
 
 ---
+
+
+
+
+
+
 
 ### Class activity A — Traffic Light
 

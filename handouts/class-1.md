@@ -1,4 +1,5 @@
-# Game Makers — Week 1
+# Game Makers - Week 1
+
 ## Meet Scratch
 
 **Name:** ______________________  **My game's theme:** ______________________
@@ -16,14 +17,14 @@ they're *very* obedient.
 
 ### Words to know
 
-| Word | What it means |
-|---|---|
-| **sprite** | A character or object in your game |
-| **stage** | The area where your game happens |
-| **backdrop** | The picture behind everything |
-| **block** | One instruction |
-| **script** | A stack of blocks joined together |
-| **bug** | Something in your code that doesn't do what you wanted |
+| Word               | What it means                                          |
+| ------------------ | ------------------------------------------------------ |
+| **sprite**   | A character or object in your game                     |
+| **stage**    | The area where your game happens                       |
+| **backdrop** | The picture behind everything                          |
+| **block**    | One instruction                                        |
+| **script**   | A stack of blocks joined together                      |
+| **bug**      | Something in your code that doesn't do what you wanted |
 
 ---
 
@@ -34,7 +35,7 @@ Make a sprite that says your name and then dances.
 1. Pick a sprite you like.
 2. Add `when green flag clicked`.
 3. Add `say [your name] for 2 seconds`.
-4. Make it dance: `move 50 steps`, `wait 0.5 seconds`, `move -50 steps`, `turn 15 degrees`.
+4. Make it dance: `move 50 steps`, `wait 0.5 seconds`, `move -50 steps`, `wait 0.5 seconds`, `turn 15 degrees`.
 5. Try adding `next costume` in between the moves.
 6. Try `change size by 10`. Run it twice. What happens?
 
@@ -72,8 +73,7 @@ like your game's idea.
 
 Only if you want to. Nobody has to do these.
 
-1. Make a sprite draw a square. (Hint: four moves and four turns of 90 degrees.)
-2. Make two sprites have a conversation without talking over each other.
+1. Make two sprites have a conversation without talking over each other.
 3. Find the Sound blocks. Make your sprite play a sound.
 4. Make your sprite grow bigger and bigger, then snap back to normal.
 
