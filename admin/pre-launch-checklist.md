@@ -38,7 +38,7 @@ Everything else can be rushed if it has to be. Start those two now.
 ## Three weeks out
 
 - [ ] **Build the eight skeleton files.** About two hours. This is the single most valuable
-      preparation task in the programme — see `curriculum/long-project-sky-catcher.md`
+      preparation task in the programme — see the Long Project guide (`course/long-project-sky-catcher.md`)
 - [ ] Create the club Scratch studio and the skeletons studio
 - [ ] Run through the week-one lesson plan end to end on the actual venue equipment
 - [ ] Confirm the projector works in the room. Bring your own adapter
