@@ -19,13 +19,13 @@ you while the room sees only the big picture.
 
 | Class | Deck | Slides |
 |---|---|---|
-| 1 — Meet Scratch | https://claude.ai/artifact/TmC3Nm5deHZSGPXCh5VLmS | 19 |
-| 2 — Events and Movement | https://claude.ai/artifact/1JWt8v7fWbjnfbHbbW9M2d | 20 |
-| 3 — Loops and Randomness | https://claude.ai/artifact/E4qwDjqxfV6sS4KAJmJat6 | 21 |
-| 4 — Decisions and Sensing | https://claude.ai/artifact/49aNqLZ1kzWeSi2LPU4Bxb | 21 |
-| 5 — Variables and Score | https://claude.ai/artifact/NK2oXo2zYfUvnDQSd5tHX5 | 21 |
-| 6 — Broadcasts and Game Over | https://claude.ai/artifact/23aSXGe4aD6aEkCp5HXFnw | 21 |
-| 7 — Operators, My Blocks and Levels | https://claude.ai/artifact/Kxstwr7kS78xjkfheeuDoi | 22 |
+| 1 — Meet Scratch | https://claude.ai/artifact/TmC3Nm5deHZSGPXCh5VLmS | 18 |
+| 2 — Events and Movement | https://claude.ai/artifact/1JWt8v7fWbjnfbHbbW9M2d | 18 |
+| 3 — Loops and Randomness | https://claude.ai/artifact/E4qwDjqxfV6sS4KAJmJat6 | 19 |
+| 4 — Decisions and Sensing | https://claude.ai/artifact/49aNqLZ1kzWeSi2LPU4Bxb | 19 |
+| 5 — Variables and Score | https://claude.ai/artifact/NK2oXo2zYfUvnDQSd5tHX5 | 19 |
+| 6 — Broadcasts and Game Over | https://claude.ai/artifact/23aSXGe4aD6aEkCp5HXFnw | 19 |
+| 7 — Operators, My Blocks and Levels | https://claude.ai/artifact/Kxstwr7kS78xjkfheeuDoi | 20 |
 | 8 — Polish, Test and Showcase | https://claude.ai/artifact/9mgQZevkyBQuPp5aaXCy5e | 19 |
 
 ### The shape of every class deck
@@ -33,11 +33,16 @@ you while the room sees only the big picture.
 Classes 1 to 7 run the same spine, so the room learns the rhythm and a substitute can present cold:
 
 Cover → Roadmap → Today → Show & Tell → Big idea → New blocks → Live demo → Spot the mistake →
-Activity A → Activity B → Break → Today's goal → Blocks you'll need → Stuck? → Save →
-Homework → Bonus → Next week
+Class activity → Today's goal → Blocks you'll need → Stuck? → Save → Homework → Bonus →
+Next week
+
+One activity per class and no break slide, to fit the hour. The activity that was dropped each
+week is on the Bonus slide.
 
 Class 8 is deliberately different, because the class is: Find the Bug, Playtest Swap, the polish
-sprint and sharing, then the room resets and the showcase runs with families present.
+sprint and sharing, then ten minutes of backing up and getting ready to present. The last three
+slides (the demo shape, the hardest-bug question, certificates) are for the showcase itself,
+which is its own event after class 8.
 
 **The roadmap slide is slide two of every deck.** It's the eight weekly checkpoints from
 `course/long-project-sky-catcher.md` written in the students' language — *says hello → you can
@@ -57,7 +62,7 @@ https://claude.ai/artifact/XR7RoWXGWWMVXr3WYncB9K — 19 slides
 Adult-facing, for the prep session before week one. Ratios and the arithmetic behind them, the
 class rhythm, why twenty is the ceiling, what to do with spare volunteers, the skeleton files, the
 five-year age spread, the seven-year-olds specifically, how to help on the floor without grabbing
-the mouse, the no-grading rule, what to cut when time runs out, the week-eight timing problem, the
+the mouse, the no-grading rule, what to cut when time runs out, why the showcase is its own event, the
 six-week prep timeline, and how we'll know it worked.
 
 Allow about forty minutes with questions, and leave ten of them for the questions — that's where

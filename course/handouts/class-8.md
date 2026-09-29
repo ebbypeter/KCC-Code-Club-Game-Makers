@@ -82,7 +82,7 @@ Your project will be visible to anyone in the world. So:
 
 ---
 
-### Your two-minute demo
+### Your two-minute demo, at the showcase
 
 1. What your game is, in one sentence.
 2. Play it for thirty seconds.

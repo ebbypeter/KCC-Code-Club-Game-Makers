@@ -9,7 +9,7 @@ hears. That's how the different parts of a program work together.
 |---|---|
 | **New concepts** | Message passing, program state, coordinating multiple sprites |
 | **New blocks** | `broadcast`, `broadcast and wait`, `when I receive`, `switch backdrop to`, `stop all`, `stop this script`, `show`, `hide` |
-| **Class activity** | Magic Wand, then Two-Scene Story |
+| **Class activity** | Magic Wand |
 | **Project checkpoint** | Lives, a title screen, a game over screen, and a restart |
 | **Homework** | A win condition; a restart |
 
@@ -19,13 +19,13 @@ hears. That's how the different parts of a program work together.
 - Skeleton `Sky Catcher — end of Week 5` ready.
 - This class has the most moving parts of any in the course. Read it twice.
 
-## 0:00–0:10 — Show & Tell
+## 0:00–0:05 — Show & Tell
 
-Ask for high scores specifically. Get two or three up on the projector and let the class try to
-beat them. Five minutes of competitive play is worth it — it's the clearest signal all term
-that they've built something real.
+Ask for high scores specifically. Get two up on the projector and let the class call out
+whether they could beat them. Keep it to five minutes — today's build is the biggest of the
+term and it needs every one of its twenty-five.
 
-## 0:10–0:25 — Live demo: broadcasts and backdrops
+## 0:05–0:15 — Live demo: broadcasts and backdrops
 
 Build live with two sprites:
 
@@ -42,9 +42,7 @@ Build live with two sprites:
 
 That typo bug is extremely common today because message names are typed by hand. Warn them.
 
-## 0:25–0:55 — Class activity
-
-### Activity A — Magic Wand (14 min)
+## 0:15–0:30 — Class activity: Magic Wand
 
 A wand sprite and two or three victim sprites.
 
@@ -55,27 +53,17 @@ Tree:   when I receive [zap] → change size by 25
 ```
 
 Add a second message, `undo`, on a different key, that puts everything back. Making both
-directions work is what forces them to think about state.
+directions work is what forces them to think about state. If the room is slow, skip `undo` and
+move on at the quarter-hour; one message, three reactions, is the concept.
 
-### Activity B — Two-Scene Story (16 min)
+## 0:30–0:55 — Project build: lives, game over, and a start screen
 
-Two backdrops, two sprites.
+This is the biggest build of the term. Plan on lives and game over for everyone. The title
+screen is for whoever gets there, and homework for the rest.
 
-```
-Stage:   when green flag clicked → switch backdrop to [scene1] → broadcast [scene1start]
-Sprite:  when I receive [scene1start] → go to x y → say [...] for 2 secs → broadcast [scene2start]
-Stage:   when I receive [scene2start] → switch backdrop to [scene2]
-```
-
-A short story that runs itself. It's the first time they build something where the *sequence
-across sprites* is the interesting part.
-
-## 0:55–1:05 — Break
-
-## 1:05–1:25 — Project build: lives, game over, and a start screen
-
-This is a bigger build than usual. If time is short, do lives and game over, and push the title
-screen to homework.
+Next week's level script starts on `when I receive [startgame]`, which only exists once the
+title screen does. Anyone who didn't get to it uses `when green flag clicked` instead, or picks
+up the `end of Week 6` skeleton.
 
 ### Step 1 — Lives
 
@@ -101,7 +89,7 @@ Note the ordering trap: `stop all` stops *everything*, including the scripts tha
 hide the sprites. Either hide first and stop last, or use a `wait 0.1` before the `stop all`.
 This is a lovely real bug and worth letting them find.
 
-### Step 3 — Title screen (if time)
+### Step 3 — Title screen (if time, otherwise homework)
 
 1. A "Title" backdrop with the game's name.
 2. `when green flag clicked` → `switch backdrop to [Title]` → `say [Press S to start]`.
@@ -113,7 +101,7 @@ the game, it starts the *title screen*. The game has states now.
 
 Save.
 
-## 1:25–1:30 — Wrap
+## 0:55–1:00 — Wrap
 
 Save and back up. Today's project has more scripts spread across more sprites than any previous
 week, and a lost file now costs real work.
@@ -128,7 +116,9 @@ week, and a lost file now costs real work.
 ## Bonus challenges
 
 1. Add a "3 — 2 — 1 — GO!" countdown between the title screen and the game starting.
-2. Give each backdrop its own music, starting and stopping on the right broadcasts.
+2. **Two-Scene Story.** Two backdrops, two sprites, a story that runs itself. The stage switches
+   to `scene1` and broadcasts `scene1start`; a sprite hears it, says its line, and broadcasts
+   `scene2start`; the stage hears that and switches to `scene2`. Keep going for a third scene.
 3. Add a boss object that appears only when the score passes 20.
 4. Try `broadcast and wait` instead of `broadcast` somewhere and work out what's different.
    (Hint: it doesn't move on until every receiver has finished.)

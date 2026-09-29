@@ -1,14 +1,14 @@
 # KCC Code Club: Game Makers
 
-The Scratch track of KCC Code Club, for ages 7–12. An 8-week, volunteer-run introduction to programming. Eight classes of 90 minutes,
-built around one game the students grow week by week and demo to their families at the end.
+The Scratch track of KCC Code Club, for ages 7–12. An 8-week, volunteer-run introduction to programming. Eight one-hour classes,
+built around one game the students grow week by week and demo to their families at a showcase at the end.
 
 ## What's in this repo
 
 | Folder | What it holds |
 |---|---|
 | `course/` | The teaching material: `program-overview.md`, the long-project guide, the concept map, `resources.md`, the slide links (`slides.md`), plus `lessons/` (eight teacher lesson plans), `handouts/` (one student sheet per class) and `exercises/` (starter `.sb3` files, named `C<class>A<activity>`) |
-| `admin/` | Everything that isn't teaching: parent letter, consent form, volunteer briefing, checklists, attendance tracker, showcase run sheet |
+| `admin/` | Everything that isn't teaching: parent letter, consent form, volunteer briefing, checklists, attendance tracker, showcase run sheet, the committee and promotions brief |
 | `build/` | The scripts that turn the markdown into PDFs and Word files, and shrink the slide decks. See `build/README.md` |
 | `outputs/` | **Generated.** Every PDF, Word copy, deck and exercise, arranged by week and audience exactly as it goes into Google Drive. See `outputs/README.md` |
 
@@ -28,10 +28,10 @@ Sources live in `course/` and `admin/`. Edit those, run `build/build_all.py`, an
 
 ## The one-paragraph version
 
-A room sized to its volunteers, ninety minutes a week for eight weeks. Each class
+A room sized to its volunteers, an hour a week for eight weeks. Each class
 teaches one new idea, practises it on a small throwaway activity, then applies it to the
 students' own game. The game works at the end of every single class — it just gets better.
-In week eight the parents come and every child demos something they built. Nothing is graded,
+After week eight the parents come to a showcase and every child demos something they built. Nothing is graded,
 nothing is marked, and the only measure of success is how many kids are still coding in week nine.
 Families pay $40 for the term — $5 a session — collected up front.
 

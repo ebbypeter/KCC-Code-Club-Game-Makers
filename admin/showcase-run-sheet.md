@@ -1,24 +1,27 @@
-# Showcase Run Sheet — Week 8
+# Showcase Run Sheet
 
-The showcase is the finish line the whole course is built towards. It takes about 25 minutes of
-actual running time and about two hours of preparation, most of which happens the week before.
+The showcase is the finish line the whole course is built towards. It's its own event, after
+week eight — it doesn't fit inside a sixty-minute class. It runs forty-five minutes to an hour
+depending on headcount, and takes about two hours of preparation, most of which happens the
+week before.
 
 ## The week before
 
-- [ ] Tell parents the date, time and that it's the *last 25 minutes* of the normal session, so
-      they know when to arrive
+- [ ] Remind parents of the date, time and place. It was in the first letter, but it's a
+      separate event from the last class, so say so plainly or some will just turn up at pickup
 - [ ] Print certificates **with names already filled in**. Not on the day
 - [ ] Check the photo permission list and note which children must not be photographed
 - [ ] Confirm who's bringing snacks
 - [ ] Confirm the projector and the presenting laptop
 
-## The morning of
+## On the day
 
 - [ ] Presenting laptop set up and tested with the projector
-- [ ] **Every student's project downloaded as an `.sb3` to a USB stick** during the polish sprint
+- [ ] **Every student's project on the USB stick as an `.sb3`** — done in the last ten minutes of
+      week eight. If anyone's is missing, download it from the club studio now
 - [ ] **Scratch Desktop open and working** on the presenting laptop — this is your wi-fi insurance
 - [ ] Club Scratch studio open in a tab with every project added
-- [ ] Chairs stacked ready to put out at the halfway point
+- [ ] Chairs out for families before they arrive
 - [ ] Snacks and cups somewhere out of reach until the right moment
 - [ ] Certificates in presentation order
 
@@ -36,15 +39,16 @@ they scale linearly with headcount:
 
 The fixed overhead is welcome (2), certificates (3), open play (10) and wrap-up (2).
 
-**This does not fit inside a normal 90-minute session at any class size.** Week eight needs to
-run long — plan on a two-hour slot, or hold the showcase as a separate event. Parents are coming
-specially; they will not mind, and squeezing it is how you end up cutting the demos, which are
-the only reason anyone is in the room.
+**This does not fit inside a sixty-minute class at any class size**, and week eight's own hour is
+needed for finishing the games anyway. So the showcase is a separate event: a second hour
+straight after week eight if the venue will give you one, or a slot at the next KCC gathering,
+where the audience will be bigger. Book it when you book the term. Parents are coming specially;
+they will not mind, and squeezing it is how you end up cutting the demos, which are the only
+reason anyone is in the room.
 
 | Time | What | Who |
 |---|---|---|
-| 0:00 | Polish sprint continues | Students |
-| −0:05 | Reset the room — chairs out, projector up, snacks out | Both volunteers |
+| −0:15 | Set up — chairs out, projector up, Scratch Desktop tested, snacks out | Volunteers |
 | 0:00 | Families arrive and settle | — |
 | +0:02 | Welcome — **two minutes maximum** | Lead volunteer |
 | +0:04 | Student demos, 2 minutes each | Each student |

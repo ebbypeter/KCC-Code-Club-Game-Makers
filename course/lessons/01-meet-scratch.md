@@ -15,14 +15,14 @@
 ## Before the class
 
 - Scratch accounts created in advance via a **teacher account** — see the Scratch Accounts Setup guide (Admin).
-  Do not spend session one on signups. It will eat forty minutes and it is the single most
-  reliable way to lose a room of children on day one.
+  Do not spend session one on signups. It will eat forty minutes of a sixty-minute class, and it
+  is the single most reliable way to lose a room of children on day one.
 - Every machine logged in, Scratch open, one browser tab, before students arrive.
 - Projector working and mirroring your screen. Test it. Test it the day before too.
 - Printed Week 1 handouts, name stickers, spare pencils.
 - Your own reference Sky Catcher open in another tab, ready to show for thirty seconds.
 
-## 0:00–0:10 — Welcome
+## 0:00–0:08 — Welcome
 
 No Show & Tell this week. Instead:
 
@@ -35,7 +35,7 @@ you'll have built one of these, and yours will be better than mine."*
 
 Do not explain how it works. They just need to want it.
 
-## 0:10–0:25 — Live demo: the Scratch window
+## 0:08–0:18 — Live demo: the Scratch window
 
 Open with the idea the whole course rests on: *"computers do exactly what you say, in exactly the order you say it. Every bug you will ever have is you saying something slightly different from what you meant."* Then show them, rather than telling them again.
 
@@ -60,7 +60,7 @@ Then build, live, with them watching:
 That last step is the most important fifteen seconds of the whole class. They need to see an
 adult be confused, stay calm, and work it out. Do a version of it every single week.
 
-## 0:25–0:55 — Class activity: Name Dance
+## 0:18–0:30 — Class activity: Name Dance
 
 The brief on their handout, in their words: *make a sprite that says your name and then dances.*
 
@@ -69,18 +69,18 @@ Guided at first, then let them go:
 1. Choose a sprite from the library — any one they like.
 2. `when green flag clicked` → `say [your name] for 2 seconds`.
 3. Add a dance: `move 50 steps`, `wait 0.5 seconds`, `move -50 steps`, `turn 15 degrees`.
-4. Add `next costume` between the moves, if their sprite has multiple costumes.
-5. Add `change size by 10` and see what happens when it runs twice.
 
-Circulate constantly. The floating volunteer should not sit down at any point during this
-twenty-five minutes.
+That's the whole activity. Twelve minutes goes quickly with a room of first-timers, so stop
+when most of them have a sprite that says their name and moves. Nobody needs a finished dance.
 
-**If they finish early:** point them at the bonus challenges on the back of the handout. Do not
-let them start the project build early — you want everyone arriving at project time together.
+Circulate constantly. The floating volunteer should not sit down at any point during these
+twelve minutes.
 
-## 0:55–1:05 — Break
+**If they finish early:** the two "try" steps on the handout — `next costume` between the moves,
+and `change size by 10` run twice — then the bonus challenges. Do not let them start the
+project build early — you want everyone arriving at project time together.
 
-## 1:05–1:25 — Project build: start Sky Catcher
+## 0:30–0:55 — Project build: start Sky Catcher
 
 1. **New project.** Name it `Sky Catcher — [their name]` immediately, at the top of the window.
    Make everyone do this before anything else. Unnamed projects get lost.
@@ -96,7 +96,7 @@ let them start the project build early — you want everyone arriving at project
 That's the checkpoint. It isn't a game yet, and they know it, which is fine — they've seen
 where it's going.
 
-## 1:25–1:30 — Wrap
+## 0:55–1:00 — Wrap
 
 Everyone saves. Walk the room and physically confirm every screen shows a saved project with
 the right name; do not take their word for it.

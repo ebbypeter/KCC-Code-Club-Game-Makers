@@ -55,10 +55,10 @@ class Walker(HTMLParser):
         if pos < len(text):
             self._run(text[pos:])
 
-    def _run(self, text, ph=False):
+    def _run(self, text, ph=False, br=False):
         if not text:
             return
-        if text != "\n":
+        if not br:
             # markdown sources wrap at ~95 columns; those newlines are not
             # meaningful, so collapse them or they show up mid-sentence in Word
             text = re.sub(r'\s+', ' ', text)
@@ -86,7 +86,7 @@ class Walker(HTMLParser):
         elif tag == "a":
             self.fmt["link"] = a.get("href")
         elif tag == "br":
-            self._run("\n")
+            self._run("\n", br=True)
         elif tag in ("ul", "ol"):
             self.list_stack.append({"t": tag, "items": [], "checks": False})
         elif tag == "table":
@@ -172,7 +172,7 @@ class Walker(HTMLParser):
         if tag == "hr":
             self.emit({"t": "hr"})
         elif tag == "br":
-            self._run("\n")
+            self._run("\n", br=True)
 
     def emit(self, block):
         (self.quote if self.in_quote else self.blocks).append(block)

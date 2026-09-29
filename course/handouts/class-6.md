@@ -35,7 +35,7 @@ The wand has no idea the frog and the tree exist. It just shouts. That's the cle
 
 ---
 
-### Class activity A — Magic Wand
+### Class activity — Magic Wand
 
 ```
 Wand:   when this sprite clicked  →  broadcast [zap]
@@ -44,10 +44,6 @@ Tree:   when I receive [zap]  →  change size by 25
 ```
 
 Now add a second message, `undo`, on a key press, that puts everything back.
-
-### Class activity B — Two-Scene Story
-
-Two backdrops, two sprites, one story that runs itself using broadcasts to move between scenes.
 
 ---
 
@@ -70,7 +66,7 @@ forever
 - [ ] Stage: `when I receive [gameover]` → `switch backdrop to [Game Over]`
 - [ ] Falling objects: `when I receive [gameover]` → `hide`
 
-**Step 3 — Title screen** *(if there's time)*
+**Step 3 — Title screen** *(if there's time — otherwise it's homework)*
 - [ ] A "Title" backdrop with your game's name
 - [ ] `when [s] key pressed` → `broadcast [startgame]`
 - [ ] Move your game's start code from `when green flag clicked` to `when I receive [startgame]`
@@ -92,7 +88,8 @@ button that resets your variables and broadcasts `startgame`.
 ## Bonus challenges
 
 1. A "3 — 2 — 1 — GO!" countdown between the title screen and the game starting.
-2. Different music for each backdrop, starting and stopping on the right broadcasts.
+2. **Two-Scene Story.** Two backdrops, two sprites, one story that runs itself — use broadcasts
+   to move from one scene to the next.
 3. A boss object that only appears once your score passes 20.
 4. Try `broadcast and wait` instead of `broadcast`. What's different?
    *(Hint: it doesn't carry on until every listener has finished.)*

@@ -9,7 +9,7 @@ and change it while the program runs.
 |---|---|
 | **New concepts** | Variables, `set` vs `change`, scope (lightly) |
 | **New blocks** | `set [var] to`, `change [var] by`, `show variable`, `hide variable`, the variable reporter |
-| **Class activity** | Click Counter, then Countdown Timer |
+| **Class activity** | Countdown Timer |
 | **Project checkpoint** | The game has a score. Good catches add, bad catches subtract |
 | **Homework** | High score; make the score look good |
 
@@ -20,11 +20,11 @@ and change it while the program runs.
   two minutes it takes to make — the physical prop does more for this concept than any explanation.
 - Skeleton `Sky Catcher — end of Week 4` ready.
 
-## 0:00–0:10 — Show & Tell
+## 0:00–0:05 — Show & Tell
 
-Ask for the bad-object homework specifically. Several of them will have made something funny.
+Ask for the bad-object homework specifically, and take two. Several of them will have made something funny.
 
-## 0:10–0:25 — Live demo: making a variable
+## 0:05–0:15 — Live demo: making a variable
 
 Frame it first, in one sentence: *"a variable is a box with a label on it. `set` throws away what's inside and puts something new in. `change` adds to what's already there."* Make them tell you the difference back before you build anything — this distinction is the whole class, and it's where today's bugs come from.
 
@@ -42,19 +42,10 @@ Frame it first, in one sentence: *"a variable is a box with a label on it. `set`
 
 Number 6 is this week's inoculation. Do not skip it.
 
-## 0:25–0:55 — Class activity
+## 0:15–0:30 — Class activity: Countdown Timer
 
-### Activity A — Click Counter (12 min)
-
-```
-when green flag clicked → set clicks to 0
-when this sprite clicked → change clicks by 1
-```
-
-Add a flourish: `if <(clicks) = 10> then [say [You win!]]`. They already have `if` from last
-week, and the `=` operator is intuitive enough to use a week before it's formally taught.
-
-### Activity B — Countdown Timer (18 min)
+The demo already built a counter that goes up. This one goes down, inside a loop, which is
+the part they haven't seen.
 
 ```
 when green flag clicked
@@ -65,13 +56,11 @@ repeat 30
 say [Time's up!]
 ```
 
-Then combine the two: a click counter with a thirty-second timer. That's a complete little
-game, built out of two variables, and several of them will realise they've just made something
-they could put in their real project.
+Fast finishers go to bonus challenge 3, Click Counter, and bolt it onto the timer: how many
+clicks in thirty seconds? That's a complete little game built from two variables, and several of
+them will realise it's something they could put in their real project.
 
-## 0:55–1:05 — Break
-
-## 1:05–1:25 — Project build: score
+## 0:30–0:55 — Project build: score
 
 Goal: **"By the end of today your game keeps score."**
 
@@ -95,7 +84,7 @@ this releases is the best thing that happens all term.
 
 Save.
 
-## 1:25–1:30 — Wrap
+## 0:55–1:00 — Wrap
 
 Save, back up, homework.
 
@@ -114,8 +103,9 @@ Save, back up, homework.
 2. Add a `lives` variable that starts at 3 and goes down when you catch a bad object. What
    should happen at zero? See if you can make something happen. (This is next week's lesson —
    a genuine head start.)
-3. Ask the player their name at the start and greet them with it. Look in the Sensing category
-   for `ask and wait` and `answer`.
+3. **Click Counter.** `when green flag clicked` → `set clicks to 0`; `when this sprite clicked`
+   → `change clicks by 1`; then `if <(clicks) = 10> then say [You win!]`. Then combine it with
+   the countdown timer: how many clicks can you get in thirty seconds?
 4. Add a `level` variable that goes up every ten points, and show it on the stage.
 
 ## Common bugs this week

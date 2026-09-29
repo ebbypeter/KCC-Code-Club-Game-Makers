@@ -7,13 +7,13 @@
 - [ ] **Wi-fi with fifteen devices actually connected.** Not "the venue has wi-fi". Take five
       devices down there and stream something on all of them. Community hall wi-fi is very often
       one consumer router with a fair-use cap, and it falls over at exactly ten connections
-- [ ] **Power.** Count the sockets. Fifteen laptops on battery for 90 minutes is usually fine,
+- [ ] **Power.** Count the sockets. Fifteen laptops on battery for an hour is usually fine,
       but you'll want six or eight sockets and a couple of multi-boxes for the ones that arrive
       at 12%
 - [ ] **Projector or a big screen**, and whether your laptop can actually drive it. Bring your
       own adapter — the venue's will be the wrong one
 - [ ] **Tables at a height children can type at**, and enough of them. Laptops on laps for
-      90 minutes is miserable
+      an hour is miserable
 - [ ] **Lighting and glare.** Afternoon sun on fifteen screens ruins a session. Check at the
       time of day you'll actually be running
 - [ ] **A wall or whiteboard** for the block lists and working through examples

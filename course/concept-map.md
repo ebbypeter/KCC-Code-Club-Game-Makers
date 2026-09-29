@@ -39,13 +39,13 @@ Both are fine, but know about them so you're not caught out mid-session.
 
 **Comparison operators appear before week seven.** `=`, `>` and `<` are formally taught in week
 seven, but they turn up earlier because you can't build a score without them: the week-five
-click counter uses `if <(clicks) = 10>`, the week-five high-score homework uses `>`, and the
+click counter bonus uses `if <(clicks) = 10>`, the week-five high-score homework uses `>`, and the
 week-six lives check uses `< 1`. This is intentional. Children read `>` and `<` intuitively long
 before they can nest operator blocks inside each other, which is the actual week-seven skill.
 Introduce them casually when they first appear and don't make a lesson of it.
 
 **`if on edge, bounce` is a Motion block, not a conditional.** It shows up in the week-three
-dancing sprite, a week before `if` is taught. It reads like a conditional and it isn't — it's a
+dancing sprite bonus, a week before `if` is taught. It reads like a conditional and it isn't — it's a
 single motion block that happens to have the word "if" in its name. If a child asks, that's a
 good answer, and it plants the idea nicely for week four.
 

@@ -4,8 +4,9 @@ Read this once before week one. It's the whole job in about ten minutes.
 
 ## What you're signing up for
 
-Eight Saturdays (or whichever day), 90 minutes each plus about 30 minutes of setup, and maybe
-half an hour of prep the night before. One volunteer per five students and never fewer than
+Eight Saturdays (or whichever day), an hour each plus about 30 minutes of setup, and maybe
+half an hour of prep the night before. Then the showcase, an evening with the families, after
+the last class. One volunteer per five students and never fewer than
 two, so a class of fifteen needs three of you in the room — see the program overview for the
 full table and the spares policy.
 
@@ -79,7 +80,7 @@ Never say "this is easy". If it were easy they'd have done it.
   welfare, report it to [NAMED PERSON] the same day. Don't investigate it yourself and don't sit
   on it.
 - **Check the health notes** on the consent forms before week one, especially allergies if
-  there's food at the break.
+  there's food at the showcase.
 
 ## Managing the room
 
@@ -103,12 +104,14 @@ of it working. Only intervene when it's stopping people thinking.
 
 ## Timing, honestly
 
-You will run over. Everyone does. When you do, cut in this order:
+You will run over. Everyone does, and an hour has very little slack. When you do, cut in this
+order:
 
-1. The second class activity
-2. Half the project build — push it into homework
+1. The class activity — stop it at the quarter-hour, wherever they've got to
+2. The optional steps of the project build — push them into homework
 
-**Never cut** Show & Tell, the break, or saving at the end.
+**Never cut** the core of the project build, Show & Tell, or saving at the end. There's no
+break to cut: at an hour, the class runs straight through.
 
 ## The end-of-session ritual
 

@@ -3,9 +3,10 @@
 **Big idea:** Finishing is a skill. Making something work for *someone else* is different from
 making it work for you.
 
-**This class is structurally different from the other seven.** The first half is a working
-session, the second half is the showcase with families in the room. Read the Showcase Run
-Sheet alongside this plan.
+**This class is structurally different from the other seven.** It's one long working session
+that ends with every game finished, shared and backed up. The showcase itself doesn't fit in a
+sixty-minute class, so it's its own event with families in the room — ideally straight after
+this class or at the next KCC gathering. Read the Showcase Run Sheet alongside this plan.
 
 ## At a glance
 
@@ -24,15 +25,16 @@ Sheet alongside this plan.
   yourself the night before: remove a `wait` from a `forever`, point a `touching?` at the wrong
   sprite, and leave out a `set score to 0`. Three bugs, increasing subtlety.
 - The club **Scratch studio** created and ready for students to add projects to.
-- Chairs, snacks, and the projector set up for families arriving at the halfway mark.
-- Certificates printed and **names filled in** — do this the night before, not on the day.
+- A USB stick for the `.sb3` backups, which feed the showcase fallback.
+- Certificates printed and **names filled in** before the showcase — the night before, not on
+  the day.
 
-## 0:00–0:10 — Show & Tell
+## 0:00–0:05 — Show & Tell
 
-Last one. Make it count — get four or five up rather than two, and prioritise anyone who hasn't
-presented yet all term. Some children will have been quietly waiting for permission all course.
+Last one. Take two, and pick children who haven't presented yet all term — some will have been
+quietly waiting for permission all course. Everyone gets their turn at the showcase anyway.
 
-## 0:10–0:20 — Find the Bug (whole class)
+## 0:05–0:13 — Find the Bug (whole class)
 
 Put the broken project on the projector. Don't tell them how many bugs there are.
 
@@ -45,10 +47,10 @@ As you go, name the three strategies on the board:
 2. **Change one thing at a time.** If you change three things and it works, you don't know why.
 3. **Explain it out loud to someone.** Even to a rubber duck. You'll usually find it mid-sentence.
 
-Ten minutes, three bugs, done. This is the most transferable thing in the entire course — it
+Eight minutes, three bugs, done. If the third one is taking too long, give it to them. This is the most transferable thing in the entire course — it
 applies to homework, to arguments, and to the rest of their lives.
 
-## 0:20–0:35 — Playtest Swap
+## 0:13–0:25 — Playtest Swap
 
 Everyone stands up and moves two seats to the right. You now play the game in front of you for
 five minutes, **without asking its author anything**.
@@ -66,7 +68,7 @@ and say thank you. Watching a child discover that their instructions made perfec
 and no sense to anyone else is the entire lesson about user experience, and it needs no
 explanation from you.
 
-## 0:35–1:00 — Polish sprint
+## 0:25–0:50 — Polish sprint
 
 Fix what the playtest turned up, then work down the finishing checklist. Put it on the board:
 
@@ -95,25 +97,27 @@ Take two minutes for the online citizenship conversation, properly:
 - If you use someone else's sprite, sound or idea, credit them. That's what the credits screen
   is for. Remixing is encouraged on Scratch; pretending it's all yours isn't.
 
-## 1:00–1:05 — Reset the room
+## 0:50–1:00 — Back up and get ready to present
 
-Families arrive. Chairs out, projector up, snacks on the table.
+- Everyone saves, shares, and checks the project is in the club studio.
+- **Copy every student's project to the USB stick as an `.sb3` file.** This is the showcase
+  fallback. Wi-fi at community venues fails at exactly the wrong moment, and with the files on a
+  stick and Scratch Desktop on the presenting laptop, the showcase carries on and nobody knows.
+- Each student writes their two showcase sentences on the handout: what the game is, and the
+  hardest bug they fixed. That last one is the good question. It turns a demo into a story.
+- Tell them, and their parents at pickup, when and where the showcase is.
 
-## 1:05–1:30 — The Showcase
+## The Showcase — its own event
 
-Full detail in the Showcase Run Sheet. Structure:
+Full detail in the Showcase Run Sheet. With fifteen students it runs about fifty minutes, which
+is why it can't share a slot with this class. Structure:
 
 - Two minutes of welcome from a volunteer. Keep it short — the parents are here for their kids.
 - Each student demos for **two minutes**: what the game is, a quick play, and the hardest bug
-  they fixed. That last question is the good one. It's what turns a demo into a story.
+  they fixed.
 - Certificates.
 - Ten minutes of open play where parents try the games and the kids explain them. This is the
   best part and it happens by itself.
-
-**Have a fallback.** Wi-fi at community venues fails at exactly the wrong moment. Download every
-student's project as an `.sb3` file to a USB stick during the polish sprint, and have Scratch
-Desktop installed on the presenting laptop. If the internet dies, the showcase carries on and
-nobody knows.
 
 ## No homework
 
@@ -139,9 +143,9 @@ On the keep-going sheet:
 
 ## Notes for the second volunteer
 
-Your job today is entirely logistical: certificates, the USB backup, chairs, and making sure
-every single child gets their two minutes. Watch for the quiet one who says they don't want to
-present — offer to stand next to them and ask the questions, which almost always works. Nobody
+In class, your job is the USB backup: every project, on the stick, before anyone goes home.
+At the showcase it's logistics — certificates, chairs, and making sure every single child gets
+their two minutes. Watch for the quiet one who says they don't want to present — offer to stand next to them and ask the questions, which almost always works. Nobody
 should leave without having shown their family something they made.
 
 ## Afterwards

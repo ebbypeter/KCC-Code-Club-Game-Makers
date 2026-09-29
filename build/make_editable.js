@@ -136,7 +136,17 @@ function widthsFor(t, W) {
   // A minimum that is always affordable: a 14-column tracker can't give every
   // column 900 twips, and the leftover would go negative.
   const MIN = Math.max(420, Math.min(900, Math.floor(W / cols / 2)));
-  const w = score.map(s => Math.max(MIN, Math.round(W * s / total)));
+  // Never narrower than the column's longest single word, or Word breaks it
+  // mid-word ("Staffin/g"). About 120 twips a character at the body size,
+  // plus the cell margins; capped so a wide table still fits.
+  const word = new Array(cols).fill(0);
+  for (const row of sample) {
+    row.forEach((c, i) => {
+      if (i < cols) word[i] = Math.max(word[i], ...plain(c).split(/\s+/).map(s => s.length));
+    });
+  }
+  const floor = word.map(n => Math.min(Math.floor(W / cols), n * 120 + 240));
+  const w = score.map((s, i) => Math.max(MIN, floor[i], Math.round(W * s / total)));
   let sum = w.reduce((a, b) => a + b, 0);
   while (sum > W) {                       // squeeze the widest column first
     const i = w.indexOf(Math.max(...w));

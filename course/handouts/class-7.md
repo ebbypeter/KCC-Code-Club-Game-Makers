@@ -38,7 +38,7 @@ That's called **abstraction**, and it's one of the most powerful ideas in all of
 
 ---
 
-### Class activity A — Quiz Sprite
+### Class activity — Quiz Sprite
 
 ```
 ask [What is 7 x 6?] and wait
@@ -49,21 +49,7 @@ else
     say (join [No, it was ] [42]) for 2 seconds
 ```
 
-Add two more questions. Notice how much you're copying and pasting. Activity B fixes that.
-
-### Class activity B — Make Your Own Block
-
-```
-define celebrate
-    say [Correct!] for 1 second
-    change size by 25
-    start sound [Cheer]
-    wait 0.5 seconds
-    change size by -25
-```
-
-Now replace all three copies of your celebration with one `celebrate` block.
-**Change the definition once → all three change.** That's the payoff.
+Add two more questions. Notice how much you're copying and pasting. Bonus challenge 2 fixes that.
 
 ---
 
@@ -90,7 +76,7 @@ else
     hide
 ```
 
-- [ ] Make a `reset object` My Block and use it on every falling sprite
+- [ ] *Homework:* make a `reset object` My Block and use it on every falling sprite
 - [ ] **Save it**
 
 ---
@@ -101,7 +87,7 @@ else
 
 **2. Tidy up.** Find code you've written more than once and turn it into a My Block.
 
-**3. Think about the showcase.** Next week your family comes to see your game. Have two
+**3. Think about the showcase.** At the showcase, your family comes to see your game. Have two
 sentences ready: *what your game is*, and *the hardest bug you fixed*.
 
 ---
@@ -109,7 +95,9 @@ sentences ready: *what your game is*, and *the hardest bug you fixed*.
 ## Bonus challenges
 
 1. A power-up that makes your player wider for five seconds, then back to normal.
-2. Use `join` to show "Level 3 — Score 42" as one readout.
+2. **Make your own block.** In your quiz, make a My Block called `celebrate` — say Correct!, grow,
+   play a cheer, shrink back. Swap it in for all three copies. **Change the definition once →
+   all three change.**
 3. Use `and` or `or` for a combo condition — a bonus that only counts on a high level.
 4. **Really hard:** replace your duplicated falling sprites with **clones**. Look up
    `create clone of myself`, `when I start as a clone`, `delete this clone`. Nobody is expected

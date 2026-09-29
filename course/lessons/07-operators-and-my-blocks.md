@@ -10,7 +10,7 @@ block of your own.
 |---|---|
 | **New concepts** | Operators, compound conditions, abstraction via custom blocks |
 | **New blocks** | `+ − × /`, `< = >`, `and`, `or`, `not`, `join`, `ask and wait`, `answer`, My Blocks (`define`) |
-| **Class activity** | Quiz Sprite, then Make Your Own Block |
+| **Class activity** | Quiz Sprite |
 | **Project checkpoint** | Difficulty ramps up with score; level-up messages; a rare bonus item |
 | **Homework** | A high-value rare item; tidy repeated code into a My Block |
 
@@ -21,16 +21,19 @@ block of your own.
 - Two weeks left. Start watching for anyone whose project is far enough behind that the showcase
   is at risk, and plan to spend extra floor time with them today and next week.
 
-## 0:00–0:10 — Show & Tell
+## 0:00–0:05 — Show & Tell
 
-Ask for win screens and restarts. Anyone who got the countdown bonus working should definitely
+Ask for win screens and restarts, two of them. Anyone who got the countdown bonus working should definitely
 present.
 
-## 0:10–0:25 — Live demo
+## 0:05–0:18 — Live demo
+
+Two concepts today, so the demo runs three minutes longer than usual and the activity three
+minutes shorter. Don't let it run longer than that.
 
 Frame My Blocks before you demo them. Ask the class how you make a cup of tea, take the seven steps they give you, draw a box round them on the board and write **MAKE TEA** on it. Then ask how you'd make tea for four people. Somebody will say "do MAKE TEA four times" rather than list twenty-eight steps — that's abstraction, arrived at by a nine-year-old in under a minute, and it beats any definition you could give.
 
-### Operators (7 min)
+### Operators (6 min)
 
 1. Drop `(3) + (4)` into a `say` block. Then `(score) + (10)`. Variables go in operator slots.
 2. `<(score) > (10)>` inside an `if`. Point at the hexagon shape again — operators that ask
@@ -43,7 +46,7 @@ Frame My Blocks before you demo them. Ask the class how you make a cup of tea, t
 5. `ask [What's your name?] and wait` → `say (join [Hello ] (answer))`. Sensing's `answer` block
    is new but obvious.
 
-### My Blocks (8 min)
+### My Blocks (6 min)
 
 1. My Blocks → **Make a Block** → name it `reset object`.
 2. A `define reset object` hat appears. Put `go to x: (pick random -220 to 220) y: 170` under it.
@@ -53,9 +56,7 @@ Frame My Blocks before you demo them. Ask the class how you make a cup of tea, t
 5. **Deliberate mistake:** call a My Block from a *different sprite* and find it isn't there.
    My Blocks belong to one sprite. Be puzzled, then explain.
 
-## 0:25–0:55 — Class activity
-
-### Activity A — Quiz Sprite (14 min)
+## 0:18–0:30 — Class activity: Quiz Sprite
 
 ```
 when green flag clicked
@@ -69,29 +70,15 @@ else
 ```
 
 Then have them add two more questions. Three near-identical blocks of code — and leave it there,
-deliberately ugly, because Activity B fixes it.
+deliberately ugly. Point at the copies and say *"that's what My Blocks are for."* Fixing it is
+bonus challenge 2: a `celebrate` block (say Correct!, grow, cheer, shrink back) that replaces all
+three copies, so one change to the definition changes all three. Let the fast ones invent their
+own — `wobble`, `explode`, `spin around`. The naming is half the fun.
 
-### Activity B — Make Your Own Block (16 min)
+## 0:30–0:55 — Project build: levels and difficulty
 
-Go back to the quiz. Make a My Block called `celebrate` containing:
-
-```
-define celebrate
-    say [Correct!] for 1 second
-    change size by 25
-    start sound [Cheer]
-    wait 0.5 seconds
-    change size by -25
-```
-
-Now replace the three copies of the celebration with three `celebrate` calls. Then change the
-definition once and watch all three change.
-
-Let them invent their own — `wobble`, `explode`, `spin around`. The naming is half the fun.
-
-## 0:55–1:05 — Break
-
-## 1:05–1:25 — Project build: levels and difficulty
+Steps 1 and 2 are the checkpoint. Step 3 is for anyone with time left, and step 4 is homework
+for nearly everyone — say so up front, so nobody feels behind.
 
 Goal: **"By the end of today your game gets harder the better you get at it."**
 
@@ -132,7 +119,7 @@ else
 
 3. Worth 5 points instead of 1 when caught.
 
-### Step 4 — Tidy with a My Block
+### Step 4 — Tidy with a My Block (homework)
 
 Every falling sprite has the same "go back to the top at a random x" code. Make it a
 `reset object` My Block on each one. It's a small win, but it's the first time they refactor
@@ -140,10 +127,10 @@ working code purely to make it nicer, which is a real habit worth starting.
 
 Save.
 
-## 1:25–1:30 — Wrap
+## 0:55–1:00 — Wrap
 
-Save and back up. Tell them plainly: **next week is the showcase**, families are coming, and
-next week is about polishing, not adding. If there's something they've been meaning to add,
+Save and back up. Tell them plainly: **next week is the last class**, the showcase comes
+after it with families in the room, and next week is about polishing, not adding. If there's something they've been meaning to add,
 this week's homework is the last chance.
 
 ## Homework
@@ -158,7 +145,10 @@ one about the hardest thing you fixed.
 ## Bonus challenges
 
 1. A power-up that makes your player wider for five seconds, then back to normal.
-2. Use `join` to display "Level 3 — Score 42" in a single readout.
+2. **Make your own block.** Go back to your quiz and make a My Block called `celebrate`:
+   `say [Correct!] for 1 second`, `change size by 25`, `start sound [Cheer]`, `wait 0.5 seconds`,
+   `change size by -25`. Swap it in for all three copies, then change the definition once and
+   watch all three change.
 3. Use `and` or `or` for a combo condition — a bonus that only counts if you're on a high level.
 4. **Advanced:** replace your duplicated falling sprites with **clones** — one sprite that copies
    itself. Look up `create clone of myself`, `when I start as a clone`, and `delete this clone`.

@@ -63,7 +63,7 @@ Name them plainly: `Sky Catcher — end of Week 3`, and so on.
 Do not skip this. Falling behind is the number one reason children drop out of coding clubs,
 and this single artefact removes it.
 
-## Teaching the project build (the last 20 minutes)
+## Teaching the project build (the last 25 minutes)
 
 Resist the urge to give step-by-step instructions on the projector during project time. The
 class activity earlier in the session was the guided version; this is where they apply it

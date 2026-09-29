@@ -9,7 +9,7 @@ position on screen is just two numbers.
 |---|---|
 | **New concepts** | Events, coordinates, several scripts running at once |
 | **New blocks** | `when [key] pressed`, `when this sprite clicked`, `change x by`, `change y by`, `set x to`, `set y to`, `glide n secs to x y`, `point in direction` |
-| **Class activity** | Treasure Hunt, then Drive the Car |
+| **Class activity** | Drive the Car |
 | **Project checkpoint** | The player moves left and right with the arrow keys |
 | **Homework** | Up/down or screen wrap; make the player face where it's going |
 
@@ -20,14 +20,14 @@ position on screen is just two numbers.
   The floor version is much better and worth the setup.
 - Skeleton file `Sky Catcher — end of Week 1` ready to send to anyone who missed class one.
 
-## 0:00–0:10 — Show & Tell
+## 0:00–0:05 — Show & Tell
 
-Two or three volunteers demo their homework joke on the projector. Applaud everything.
+Two volunteers demo their homework joke on the projector. Applaud everything.
 
 If nobody volunteers — likely in week two — demo one yourself and ask the class to rate the
 joke out of ten. Next week someone will put their hand up.
 
-## 0:10–0:25 — Live demo: hat blocks are triggers
+## 0:05–0:15 — Live demo: hat blocks are triggers
 
 Start with the point: every script needs a **hat block** — a trigger that says *when* to run.
 The green flag is only one of them.
@@ -46,18 +46,7 @@ Build live:
 6. **Deliberate mistake:** use `set x to 10` for movement and press the key repeatedly. It only
    moves once. Be baffled, then work it out with them.
 
-## 0:25–0:55 — Class activity
-
-### Activity A — Treasure Hunt (12 min)
-
-Three or four sprites on the stage. One is hiding treasure.
-
-- On each sprite: `when this sprite clicked` → `say [Nothing here!] for 2 seconds`
-- On the winner: `when this sprite clicked` → `say [You found it!] for 2 seconds` → `change size by 50`
-
-Small, quick, and it makes the `when this sprite clicked` trigger stick.
-
-### Activity B — Drive the Car (18 min)
+## 0:15–0:30 — Class activity: Drive the Car
 
 A sprite controlled by all four arrow keys.
 
@@ -72,11 +61,10 @@ Then let them play with the number. Change 10 to 50 — too fast. To 2 — too s
 number that *feels* right is their first taste of tuning, and they enjoy it more than you'd expect.
 
 **If they finish early:** bonus challenges. The pen-trail one keeps a fast student busy for
-fifteen minutes.
+fifteen minutes. Treasure Hunt, bonus challenge 2, is the one to give anyone who wants more
+practice with `when this sprite clicked`.
 
-## 0:55–1:05 — Break
-
-## 1:05–1:25 — Project build: the player moves
+## 0:30–0:55 — Project build: the player moves
 
 Goal in one sentence: **"By the end of today you can drive your player left and right along the
 bottom."**
@@ -97,7 +85,7 @@ Deferring honestly is better than a magic block they don't understand.
 
 Save. Check the name.
 
-## 1:25–1:30 — Wrap
+## 0:55–1:00 — Wrap
 
 Save, back up, brief the homework, point at the bonuses.
 
@@ -112,7 +100,9 @@ Save, back up, brief the homework, point at the bonuses.
 ## Bonus challenges
 
 1. Add WASD keys as well as the arrows, so two people could play.
-2. Make an "H for home" key that sends the player back to its starting position.
+2. **Treasure Hunt.** Three or four sprites on the stage, one hiding treasure. Each empty one:
+   `when this sprite clicked` → `say [Nothing here!] for 2 seconds`. The winner says
+   `[You found it!]` and does `change size by 50`.
 3. Add the Pen extension and make your sprite draw a trail as it moves. Add a key that clears it.
 4. Make the sprite move faster when you hold down the shift key. (Harder than it looks — a good
    one to leave hanging until week four.)

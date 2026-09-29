@@ -116,7 +116,7 @@ def jobs(root):
              kind="doc", title="Scratch Accounts", sub="Set up six weeks out",
              badge="", doc="Scratch accounts guide"),
         dict(out=os.path.join(S, "Showcase Run Sheet.pdf"), src=os.path.join(A, "showcase-run-sheet.md"),
-             kind="doc", title="Showcase Run Sheet", sub="Week eight",
+             kind="doc", title="Showcase Run Sheet", sub="For families, after week eight",
              badge="", doc="Showcase run sheet"),
     ]
     return J

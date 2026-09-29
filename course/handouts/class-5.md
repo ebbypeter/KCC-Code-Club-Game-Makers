@@ -39,16 +39,7 @@ it, and you can change it while the game is running.
 
 ---
 
-### Class activity A — Click Counter
-
-```
-when green flag clicked      →  set clicks to 0
-when this sprite clicked     →  change clicks by 1
-```
-
-Then add: `if <(clicks) = 10> then say [You win!]`
-
-### Class activity B — Countdown Timer
+### Class activity — Countdown Timer
 
 ```
 when green flag clicked
@@ -59,7 +50,7 @@ repeat 30
 say [Time's up!]
 ```
 
-**Now combine them** — a click counter with a 30 second timer. That's a whole little game!
+Watch it count down. Then try changing the 30 — what else has to change with it?
 
 ---
 
@@ -97,8 +88,9 @@ large readout. Hide any variables the player doesn't need to see.
    loop. *(Careful: a wait can't be negative.)*
 2. Add a `lives` variable starting at 3 that goes down on a bad catch. What should happen at
    zero? See if you can make something happen. *(That's next week — nice head start!)*
-3. Ask the player their name at the start and greet them. Look for `ask and wait` and `answer`
-   in the **Sensing** blocks.
+3. **Click Counter.** `set clicks to 0` on the green flag, `change clicks by 1` when the sprite
+   is clicked, and `say [You win!]` at 10. Then add your countdown timer — how many clicks can
+   you get in 30 seconds? That's a whole little game!
 4. Add a `level` variable that goes up every ten points.
 
 ---

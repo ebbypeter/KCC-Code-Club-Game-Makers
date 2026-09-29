@@ -12,7 +12,7 @@ a game they can actually play. Plan for the energy in the room to go up.
 |---|---|
 | **New concepts** | Selection (`if`, `if/else`), booleans as yes/no questions, sensing |
 | **New blocks** | `if ... then`, `if ... then ... else`, `touching [sprite]?`, `touching [edge]?`, `key [x] pressed?`, `start sound`, `play sound until done` |
-| **Class activity** | Traffic Light, then Bumper Sprite |
+| **Class activity** | Bumper Sprite |
 | **Project checkpoint** | Catching works. The game is playable |
 | **Homework** | Catch feedback (sound or flash); add a bad object |
 
@@ -23,12 +23,12 @@ a game they can actually play. Plan for the energy in the room to go up.
 - This is the highest-value class in the course — if you're going to have three volunteers in
   the room on any one week, make it this one.
 
-## 0:00–0:10 — Show & Tell
+## 0:00–0:05 — Show & Tell
 
-Homework demos. Ask specifically whether anyone got the random falling speed working, and get
+Two homework demos. Ask specifically whether anyone got the random falling speed working, and get
 them to explain *how*, not just show it.
 
-## 0:10–0:25 — Live demo: if, if/else, and touching
+## 0:05–0:15 — Live demo: if, if/else, and touching
 
 Build live:
 
@@ -45,24 +45,10 @@ Build live:
 
 Number 5 is the bug that will consume half your floor time today. Front-load it.
 
-## 0:25–0:55 — Class activity
+## 0:15–0:30 — Class activity: Bumper Sprite
 
-### Activity A — Traffic Light (12 min)
-
-A sprite and two coloured sprites.
-
-```
-when green flag clicked
-forever
-    if <touching [Red]?> then
-        say [STOP!]
-    else
-        say [GO!]
-```
-
-Then they drag the sprite in and out. Simple, immediate, and it makes `if/else` concrete.
-
-### Activity B — Bumper Sprite (18 min)
+It's an `if` inside a `forever`, which is exactly the shape the catching script needs in the
+project build. That's why this one stays.
 
 ```
 when green flag clicked
@@ -76,9 +62,7 @@ forever
 Add a second sprite and have them bounce off each other too. Kids will spend the whole fifteen
 minutes on this happily — it's the first thing that behaves like it has a mind of its own.
 
-## 0:55–1:05 — Break
-
-## 1:05–1:25 — Project build: catching
+## 0:30–0:55 — Project build: catching
 
 Goal: **"By the end of today, you can catch things and the game will notice."**
 
@@ -113,7 +97,7 @@ swap seats and play their neighbour's for two minutes. The room will be loud. Th
 
 Save.
 
-## 1:25–1:30 — Wrap
+## 0:55–1:00 — Wrap
 
 Save and back up carefully this week; there's more to lose now than there was.
 
@@ -129,8 +113,8 @@ next week."*
 
 ## Bonus challenges
 
-1. Make a sprite that says something different depending on which half of the stage it's on.
-   (Hint: `if <(x position) > 0>`.)
+1. **Traffic Light.** Add a red sprite. Then `forever` → `if <touching [Red]?> then say [STOP!]
+   else say [GO!]`, and drag your sprite in and out of the red one.
 2. Make a sprite that follows the mouse pointer, but only while the space key is held down.
 3. Use `if` to stop the player leaving the stage — the thing we couldn't do in week two.
 4. Combine two conditions with `and`: only catch if you're touching it **and** the space key is

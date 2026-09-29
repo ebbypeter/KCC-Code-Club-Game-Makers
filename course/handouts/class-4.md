@@ -44,20 +44,7 @@ A question that can only be answered yes or no is called a **boolean**. Those bl
 
 
 
-### Class activity A — Traffic Light
-
-```
-when green flag clicked
-forever
-    if <touching [Red]?> then
-        say [STOP!]
-    else
-        say [GO!]
-```
-
-Now drag your sprite in and out of the red one.
-
-### Class activity B — Bumper Sprite
+### Class activity — Bumper Sprite
 
 ```
 when green flag clicked
@@ -106,8 +93,8 @@ For now it just says "Ouch!" when it hits you. Next week it'll cost you points.
 
 ## Bonus challenges
 
-1. A sprite that says different things depending on which half of the stage it's on.
-   *(Hint: `if <(x position) > 0>`)*
+1. **Traffic Light.** Add a red sprite. `forever` → `if <touching [Red]?> then say [STOP!]
+   else say [GO!]`. Now drag your sprite in and out of the red one.
 2. A sprite that follows the mouse, but only while space is held down.
 3. Use `if` to stop your player leaving the stage — the thing we couldn't do in week 2!
 4. Use `and` to combine two conditions: only catch it if you're touching it **and** pressing space.

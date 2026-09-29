@@ -59,6 +59,7 @@ yellow**. Delete the instruction box at the top once you're done.
 | `Attendance-Tracker.docx` | Student names, if you'd rather type them than write them |
 | `Showcase-Run-Sheet.docx` | Times and names on the night |
 | `Venue-and-Device-Checklist.docx` | Venue answers |
+| `Committee-and-Promotions-Brief.docx` | Dates, venue, showcase date, number of places, registration link, your contact |
 | `Programme-Overview.docx`, `Pre-launch-Checklist.docx`, `Scratch-Accounts.docx` | Nothing, unless you want to reword them |
 
 **Save your filled-in copy somewhere else.** In Drive, keep a term folder beside this pack and put

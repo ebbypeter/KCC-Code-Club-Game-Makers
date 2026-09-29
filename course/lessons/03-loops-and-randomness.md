@@ -9,7 +9,7 @@ repeat it. And if you want the game to surprise you, ask it for a random number.
 |---|---|
 | **New concepts** | Iteration (`repeat`, `forever`), randomness, nested loops |
 | **New blocks** | `repeat n`, `forever`, `repeat until`, `wait n secs`, `pick random a to b` |
-| **Class activity** | Dancing Sprite, then Rain |
+| **Class activity** | Rain |
 | **Project checkpoint** | One object falls from a random position at the top, over and over |
 | **Homework** | A second falling object; random falling speed |
 
@@ -18,12 +18,12 @@ repeat it. And if you want the game to surprise you, ask it for a random number.
 - Print the Week 3 handout.
 - Skeleton `Sky Catcher — end of Week 2` ready for anyone who missed a week.
 
-## 0:00–0:10 — Show & Tell
+## 0:00–0:05 — Show & Tell
 
-Homework demos. By now you should get three or four hands. If someone has done a bonus
+Homework demos, two of them. By now you should get three or four hands, so choose. If someone has done a bonus
 challenge, get them up — bonus work being celebrated is what makes the *next* student attempt one.
 
-## 0:10–0:25 — Live demo: repeat, forever, random
+## 0:05–0:15 — Live demo: repeat, forever, random
 
 Frame it before you touch the keyboard. Clap a pattern — *clap, clap, stomp* — four times, wearily, then write it on the board as `repeat 4 [clap, clap, stomp]` and change the 4 to a 10. Twelve actions became thirty by editing one character. Thirty seconds, and the nested loop later lands much more easily for it.
 
@@ -42,24 +42,7 @@ Build live:
 6. **Deliberate mistake:** put the `wait` *outside* the loop instead of inside. Run it. Be
    confused for a moment, then narrate finding it.
 
-## 0:25–0:55 — Class activity
-
-### Activity A — Dancing Sprite (12 min)
-
-Take a sprite with several costumes (the library ones with walk cycles work well).
-
-```
-when green flag clicked
-forever
-    next costume
-    wait 0.2 seconds
-    move 5 steps
-```
-
-Then let them tune the `wait` until the walk looks right. Add `if on edge, bounce` so it
-doesn't escape.
-
-### Activity B — Rain (18 min)
+## 0:15–0:30 — Class activity: Rain
 
 This is the dress rehearsal for the project build, deliberately.
 
@@ -76,11 +59,9 @@ A raindrop that appears at a random point along the top and falls to the bottom,
 Get them to change the numbers: fewer repeats and a bigger step is a faster drop.
 
 **Fast finishers:** ask them to make it look like rain by duplicating the sprite three or four
-times. Duplicating a sprite copies its scripts, which is a nice thing for them to discover.
+times. Duplicating a sprite copies its scripts, which is a nice thing for them to discover. After that, the Dancing Sprite bonus challenge.
 
-## 0:55–1:05 — Break
-
-## 1:05–1:25 — Project build: things fall from the sky
+## 0:30–0:55 — Project build: things fall from the sky
 
 Goal: **"By the end of today, something falls from the sky in your game, over and over."**
 
@@ -108,7 +89,7 @@ nothing happens. Say that out loud and promise it for next week. The anticipatio
 
 Save.
 
-## 1:25–1:30 — Wrap
+## 0:55–1:00 — Wrap
 
 Save, back up, homework brief.
 
@@ -124,7 +105,9 @@ Save, back up, homework brief.
 1. Draw a shape with `repeat` and `turn`. A square is 4 and 90. What makes a triangle? A hexagon?
    What happens with `repeat 36 [ move 10, turn 10 ]`?
 2. Make the falling object spin as it falls.
-3. Make a starfield — five objects falling at five different speeds.
+3. **Dancing Sprite.** Pick a sprite with a walk cycle. `forever` → `next costume`,
+   `wait 0.2 seconds`, `move 5 steps`. Tune the wait until the walk looks right, and add
+   `if on edge, bounce` so it doesn't escape.
 4. Use `repeat until` instead of `forever` so the object stops after ten drops. (You'll need a
    way to count, which is properly a week-five problem. See how far you get.)
 

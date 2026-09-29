@@ -27,14 +27,7 @@ stage is `x: 0  y: 0`.
 
 ---
 
-### Class activity A — Treasure Hunt
-
-Three or four sprites. One is hiding treasure.
-
-- On each empty one: `when this sprite clicked` → `say [Nothing here!] for 2 seconds`
-- On the winner: `when this sprite clicked` → `say [You found it!]` → `change size by 50`
-
-### Class activity B — Drive the Car
+### Class activity — Drive the Car
 
 Make a sprite you can drive with all four arrow keys.
 
@@ -74,7 +67,8 @@ fix isn't in the code!)*
 ## Bonus challenges
 
 1. Add WASD keys as well as the arrows, so two people could play at once.
-2. Make an "H for home" key that sends the player back to the start.
+2. **Treasure Hunt.** Three or four sprites, one hiding treasure. The empty ones say
+   `Nothing here!` when clicked. The winner says `You found it!` and grows by 50.
 3. Add the **Pen** extension. Make your sprite draw a trail. Add a key that clears it.
 4. Make the sprite move faster while you hold shift. *(Tricky! Come back to this in two weeks.)*
 

@@ -13,6 +13,9 @@ Everything else can be rushed if it has to be. Start those two now.
 - [ ] **Request the Scratch teacher account** at [scratch.mit.edu/educators](https://scratch.mit.edu/educators),
       in the club's name with a club email address. See `scratch-accounts-setup.md`
 - [ ] **Confirm the venue**: room, dates, times, key access, who unlocks and locks up
+- [ ] **Book the showcase** at the same time — a second hour straight after week eight, or a slot
+      at the next KCC gathering. It doesn't fit in a sixty-minute class, and the date goes in
+      the parent letter
 - [ ] **Take the club's child safety policy to the KCC committee** before you commit to dates.
       Agree what's required of volunteers, what the club's insurance covers, and who the named
       contact is for any welfare concern. See the note at the bottom of this file
@@ -62,7 +65,7 @@ Everything else can be rushed if it has to be. Start those two now.
 - [ ] Name stickers, pencils, handouts on the desks
 - [ ] Your finished Sky Catcher open in a tab, ready to demo
 - [ ] Consent forms checked off against the attendance list
-- [ ] Water, and a plan for the break
+- [ ] Water, somewhere away from the laptops — there's no break, so they drink when they need to
 
 ## Standing weekly routine
 

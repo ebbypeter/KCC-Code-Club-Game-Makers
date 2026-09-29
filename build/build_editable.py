@@ -33,11 +33,14 @@ DOCS = [
      "Volunteer Briefing", "Read before week one",
      "One thing highlighted in yellow: the named contact for welfare concerns. Fill it in before you hand this out, then delete this box."),
     ("admin/showcase-run-sheet.md", "Showcase-Run-Sheet.docx",
-     "Showcase Run Sheet", "Week eight", ""),
+     "Showcase Run Sheet", "For families, after week eight", ""),
     ("admin/venue-device-checklist.md", "Venue-and-Device-Checklist.docx",
      "Venue and Device Checklist", "Before you commit to a room", ""),
     ("admin/scratch-accounts-setup.md", "Scratch-Accounts.docx",
      "Scratch Accounts", "Set up six weeks out", ""),
+    ("admin/committee-promotions-brief.md", "Committee-and-Promotions-Brief.docx",
+     "Committee and Promotions Brief", "For the KCC committee and the promotions team",
+     "Fill in the highlighted placeholders (dates, venue, registration link, contact) before this goes out, then delete this box."),
 ]
 
 NEWPAGE = {"Attendance-Tracker.docx": ["The sheet", "Catch-up log"]}

@@ -74,8 +74,8 @@ like your game's idea.
 Only if you want to. Nobody has to do these.
 
 1. Make two sprites have a conversation without talking over each other.
-3. Find the Sound blocks. Make your sprite play a sound.
-4. Make your sprite grow bigger and bigger, then snap back to normal.
+2. Find the Sound blocks. Make your sprite play a sound.
+3. Make your sprite grow bigger and bigger, then snap back to normal.
 
 ---
 

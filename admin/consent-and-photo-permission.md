@@ -8,7 +8,7 @@
 
 ## KCC Code Club: Game Makers — Registration, Consent and Permissions
 
-**Term:** [DATES] · **Venue:** [VENUE] · **Sessions:** 8 × 90 minutes
+**Term:** [DATES] · **Venue:** [VENUE] · **Sessions:** 8 × 60 minutes, plus the showcase
 
 ---
 

@@ -16,8 +16,8 @@ the first class under our new KCC Code Club — and we'd love your child to join
 Over eight weekly sessions, the children will learn the real foundations of programming — how
 to give a computer instructions, how to make decisions and repeat things, how to store
 information, and above all how to work out why something isn't doing what they expected. They
-will do all of this by building their own arcade game, which grows a little every week. On the
-last day, you're invited to come and watch them demo what they made.
+will do all of this by building their own arcade game, which grows a little every week. At the
+end, you're invited to a showcase to watch them demo what they made.
 
 No experience is needed. Most of them will never have written a line of code before, and that's
 exactly who this is for.
@@ -29,10 +29,10 @@ exactly who this is for.
 | **Ages** | 7–12 |
 | **When** | [DAY] afternoons, [TIME]–[TIME], starting [DATE] |
 | **Where** | [VENUE AND ADDRESS] |
-| **How long** | 8 weekly sessions of 90 minutes |
+| **How long** | 8 weekly sessions of one hour |
 | **Cost** | **$40 for the whole term** — eight sessions, so $5 a session. Payable before the first class |
 | **Class size** | [N] places, first come first served |
-| **Last session** | [DATE] — the showcase. **Please come.** |
+| **Showcase** | [DATE, TIME AND PLACE] — families invited. **Please come.** |
 
 ### What we use
 
@@ -50,7 +50,7 @@ Their work will be saved online so they can carry on at home.
 - **A laptop.** We don't have club laptops for this first term, so this one is unavoidable —
   sorry. Any laptop from the last six or seven years is fine, and a Chromebook works too.
 - Headphones, if they have some. Not essential.
-- That's it. No books, nothing to install, nothing more to pay.
+- That's it. No books, nothing more to pay.
 
 If not having a laptop is what's stopping you signing up, **please tell us anyway**. We can't
 promise anything, but we would much rather know and try to help than have you quietly not
@@ -63,8 +63,8 @@ fifteen minutes, always something they can show off. There's no marking and noth
 The single most useful thing you can do is let them show you what they built and be impressed,
 even when you have no idea what you're looking at. Especially then.
 
-**Come to the showcase.** The last session is a demo evening, and it's the thing they'll
-remember.
+**Come to the showcase.** After the last class, the children demo their games to their
+families. It's the thing they'll remember.
 
 ### A note on how we run it
 

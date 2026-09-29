@@ -38,19 +38,7 @@ And when you want the computer to surprise you, use `pick random`.
 
 ---
 
-### Class activity A — Dancing Sprite
-
-```
-when green flag clicked
-forever
-    next costume
-    wait 0.2 seconds
-    move 5 steps
-```
-
-Change the `0.2` until the walk looks right. Add `if on edge, bounce` so it doesn't escape.
-
-### Class activity B — Rain
+### Class activity — Rain
 
 ```
 when green flag clicked
@@ -96,7 +84,9 @@ Today your project starts looking like a real game.
 1. Draw shapes with `repeat` + `turn`. A square is `repeat 4 [move 100, turn 90]`.
    What makes a triangle? A hexagon? What does `repeat 36 [move 10, turn 10]` draw?
 2. Make your falling object spin as it falls.
-3. Make a starfield — five objects falling at five different speeds.
+3. **Dancing Sprite.** Pick a sprite with a walk cycle. `forever` → `next costume`,
+   `wait 0.2 seconds`, `move 5 steps`. Tune the wait until the walk looks right, then add
+   `if on edge, bounce`.
 4. Use `repeat until` instead of `forever` so it stops after ten drops. *(Hard! You'll need a
    way to count, which we learn in two weeks.)*
 

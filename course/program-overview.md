@@ -1,10 +1,10 @@
 # Program Overview
 
-**Course:** KCC Code Club: Game Makers
-**Ages:** 7–12, no prior experience assumed
-**Length:** 8 classes × 90 minutes, weekly
-**Class size:** 16 for the pilot term, 20 program ceiling thereafter
-**Volunteers:** one per five students, never fewer than two
+**Course:** KCC Code Club: Game Makers  
+**Ages:** 7–12, no prior experience assumed  
+**Length:** 8 classes × 60 minutes, weekly, then a showcase event for families  
+**Class size:** 16 for the pilot term, 20 program ceiling thereafter  
+**Volunteers:** one per five students, never fewer than two  
 **Cost:** $40 for the eight-week term — $5 a session — collected up front
 
 ## What the students will be able to do by week 8
@@ -47,7 +47,7 @@ than the target.
 The ratio governs how much *help* is available. It doesn't fix the three things that break in a
 big room:
 
-- **The projector demo.** Fifteen minutes of live coding only works if the back row can read the
+- **The projector demo.** Ten minutes of live coding only works if the back row can read the
   blocks. Past about twenty, they can't.
 - **Pace.** One lead can hold maybe twenty children through a build. Beyond that it isn't one
   class, it's two classes sharing a lead, badly.
@@ -55,7 +55,7 @@ big room:
   simultaneous connections. Wi-fi that copes with fifteen and dies at twenty-five is extremely
   common — test at the number you're actually planning for. Families bring their own laptops,
   so the club controls none of this; at twenty, one forgotten charger is a child with nothing
-  to do for ninety minutes.
+  to do for the hour.
 
 Hold 20 back until the club has run a full term, because at 20 you need four volunteers in the
 room every week and that leaves almost no slack. Prove the reliability of your team first.
@@ -93,15 +93,28 @@ predictable structure is also what lets a substitute volunteer run a session fro
 
 | Time | Segment | Why it's there |
 |---|---|---|
-| 0:00–0:10 | Arrival and Show & Tell | Two or three students demo last week's homework. This is the single strongest motivator in the whole program and it costs nothing. |
-| 0:10–0:25 | New concept, live demo | You code on the projector and *deliberately make mistakes*. Watching an adult debug calmly is the lesson. |
-| 0:25–0:55 | Class activity | Small, throwaway, everyone does it. Practising the concept with no risk to their real project. |
-| 0:55–1:05 | Break | Non-negotiable. Ninety minutes of screen time without a break is not a thing 9-year-olds can do. |
-| 1:05–1:25 | Project build | Add this week's layer to their own game. |
-| 1:25–1:30 | Save, share, homework brief | Everyone saves and backs up. Nobody leaves with a broken game. |
+| 0:00–0:05 | Arrival and Show & Tell | Two students demo last week's homework. This is the single strongest motivator in the whole program and it costs nothing. |
+| 0:05–0:15 | New concept, live demo | You code on the projector and *deliberately make mistakes*. Watching an adult debug calmly is the lesson. |
+| 0:15–0:30 | Class activity | One small, throwaway activity everyone does. Practising the concept with no risk to their real project. |
+| 0:30–0:55 | Project build | Add this week's layer to their own game. The biggest block of the hour, on purpose. |
+| 0:55–1:00 | Save, share, homework brief | Everyone saves and backs up. Nobody leaves with a broken game. |
 
-**Fifteen minutes of talking, fifty of hands-on.** If you find yourself explaining for
-twenty-five minutes, stop and let them build. They learn it in their fingers, not their ears.
+**Ten minutes of talking, forty of hands-on.** If you find yourself explaining for twenty
+minutes, stop and let them build. They learn it in their fingers, not their ears.
+
+Two weeks bend the shape a little. Week 1 has a longer welcome instead of Show & Tell, and
+week 7 has two concepts, so its demo takes three minutes from the activity. Week 8 is its own
+thing: find the bug, playtest, polish, back up.
+
+**There's no break.** An hour is a length a 7-year-old can sit through with a screen, and a
+break would come out of the project build. If a group is flagging, a one-minute stand-up stretch
+between the activity and the build costs almost nothing.
+
+**Why the project build gets the most time.** Sky Catcher is the spine of the course. A child who
+misses a week's layer is behind for every week after it, while a child who misses the throwaway
+activity has lost nothing they need. So each week has one activity, not two, and the build gets the
+biggest share of the hour. The activities that didn't make the cut are still on the handouts,
+as bonus challenges.
 
 ## The long project
 
@@ -164,12 +177,20 @@ saves them from measuring themselves against a 12-year-old on every task.
 
 ## What to cut when you run out of time
 
-You will run out of time. Roughly every second week. Cut in this order:
+You will run out of time. Roughly every second week. An hour has very little slack, so cut in
+this order:
 
-1. The second class activity (where there is one) — always optional.
-2. Half the project build — push the remainder into homework and open the next class with it.
+1. The class activity — stop it at the quarter-hour mark wherever they've got to. It's
+   throwaway by design.
+2. The optional steps of the project build (each week's plan says which ones they are) — push
+   them into homework and open the next class with them.
 
-**Never cut** Show & Tell, the break, or the save-and-back-up at the end.
+**Never cut** the core of the project build, Show & Tell, or the save-and-back-up at the end.
+
+The honest cost of the hour is that a bad week now eats into the project build, and whatever
+spills over lands in homework — which the children who don't do homework never catch up on.
+The skeleton files are the fix: a child who fell behind in class starts next week from the
+skeleton, not from their half-finished game.
 
 ## Attendance and attrition
 
@@ -185,6 +206,15 @@ before week one.
 
 Agree with the committee, before you publish the fee, that no child is turned away over it and
 who is allowed to waive it quietly. A waiver that needs a meeting is a waiver nobody asks for.
+
+## The showcase
+
+The showcase doesn't fit in a sixty-minute class. Demos run two minutes each plus about
+seventeen minutes of welcome, certificates and open play, so fifteen students need about fifty
+minutes, and week eight's own hour is spent getting the games finished. Run it as its own event:
+straight after week eight if the venue will give you the extra hour, or at the next KCC
+gathering, where the audience will be bigger anyway. Book it when you book the term, and tell
+families the date in the first letter. Details in the Showcase Run Sheet.
 
 ## Success measures
 
